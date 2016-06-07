@@ -1,0 +1,35 @@
+! special
+*.foreground: #0e3c00
+*.background: #000000
+*.cursorColor:#5b5b5b
+! black
+*.color0: #000000
+!blue
+*.color1: #141968
+!light green
+*.color2: #082820
+!brown
+*.color3: #db7c2e
+! orange
+*.color4: #993700
+! light green
+*.color5: #32401A
+! dark blue
+*.color6: #214052
+! brown
+*.color7: #332014
+! red to black
+*.color8: #331418
+! dark grey
+*.color9: #2D3434
+! light green 
+*.color10: #2B6755
+! rlight blue
+*.color11: #00b2b2
+! dark green
+*.color12: #003333
+! light green
+*.color13: #006B35
+! dark green
+*.color14: #002d16
+XTerm*faceName: Droid Sans Mono:pixelsize=20
