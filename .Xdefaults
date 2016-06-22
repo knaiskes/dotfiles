@@ -8,16 +8,16 @@
 *.color1: #141968
 !light green
 *.color2: #082820
-!brown
-*.color3: #db7c2e
-! orange
-*.color4: #993700
+!light blue
+*.color3: #005555
+!light blue 
+*.color7: #005555
 ! light green
 *.color5: #32401A
 ! dark blue
 *.color6: #214052
 ! brown
-*.color7: #332014
+*.color4: #332014
 ! red to black
 *.color8: #331418
 ! dark grey
