@@ -14,6 +14,12 @@ hi CursorLineNr cterm=none ctermfg=160 ctermbg=233
 hi Pmenu ctermfg=239 ctermbg=234  cterm=bold
 hi PmenuSel cterm=bold ctermfg=232 ctermbg=242
 
+hi User1 cterm=NONE ctermbg=NONE ctermfg=28
+hi User2 cterm=NONE ctermbg=NONE ctermfg=130
+hi User3 cterm=NONE ctermbg=NONE ctermfg=124
+hi User4 cterm=NONE ctermbg=NONE ctermfg=NONE
+
+
 hi VertSplit cterm=bold ctermfg=238 ctermbg=236
 
 hi CursorLine cterm=none ctermfg=none ctermbg=235
