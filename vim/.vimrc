@@ -29,7 +29,10 @@ set statusline +=%1*\ %<%F
 set number "enable numbers to the left 
 set relativenumber
 
-set dictionary+=/home/kiriakos/dictionary.txt "dictionary for programming keywords
+"Mappings
+cnoremap <C-a> <Home>
+cnoremap <C-e> <End>
+
 set hidden  "switch to buffers without saving first
 
 let &titleold=getcwd()
