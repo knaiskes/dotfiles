@@ -133,9 +133,9 @@ bindsym Escape mode "default"
 bindsym $mod+r mode "resize"
 # colors
 #class border backgr. text
-client.focused #678889 #006600 #000000
+client.focused #678889 #020202 #676767
 client.focused_inactive #0000000 #000000 #00CD00
-client.unfocused #141616 #004444 #000000
+client.unfocused #141616 #0C202B #000000
 client.urgent #141616 #000928 #575C5E
 client.background #000000
 # Start i3bar to display a workspace bar (plus the system information i3status
