@@ -25,7 +25,7 @@ set statusline=
 set statusline +=%3*\%=[%n] "buffer number
 set statusline +=%2*\ %y\    "filetype
 set statusline +=%1*\ %<%F
-
+set colorcolumn=80
 set number "enable numbers to the left 
 set relativenumber
 
