@@ -23,6 +23,7 @@ hi User4 cterm=NONE ctermbg=NONE ctermfg=NONE
 hi VertSplit cterm=bold ctermfg=238 ctermbg=236
 
 hi CursorLine cterm=none ctermfg=none ctermbg=235
+hi colorcolumn ctermbg=236
 
 hi StatusLine cterm=none ctermfg=40 ctermbg=none
 hi StatusLineNC cterm=none ctermfg=160 ctermbg=NONE
