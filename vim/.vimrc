@@ -1,6 +1,3 @@
-"set t_ut=
-"set t_Co=256
-
 
 colorscheme kiriakos_theme
 if &term =~ "xterm"
