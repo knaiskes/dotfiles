@@ -1,10 +1,11 @@
+set nocompatible "stop pretending to be vi
 
 colorscheme kiriakos_theme
 if &term =~ "xterm"
 	set t_co=256
 endif
-"enable programming syntax highlighting
-syntax on 
+
+syntax on "enable programming syntax highlighting
 set cul
 
 set hlsearch "search highlighting
@@ -12,10 +13,8 @@ set incsearch "move to search while typing
 
 set fillchars+=vert:\
 
-"load specific indentation of programming languages
-filetype indent on
-"autocomplete for command menu
-set wildmenu
+filetype indent on "load specific indentation of programming languages
+set wildmenu "autocomplete for command menu
 
 set laststatus=2 
 set statusline=
