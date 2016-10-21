@@ -1,3 +1,4 @@
+"Compatible with vim 8
 set nocompatible "stop pretending to be vi
 
 colorscheme kiriakos_theme
