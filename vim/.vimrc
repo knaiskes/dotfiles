@@ -24,6 +24,7 @@ set statusline +=%1*\ %<%F
 set colorcolumn=80
 set number "enable numbers to the left 
 set relativenumber
+set wrap
 
 "Mappings
 cnoremap <C-a> <Home>
