@@ -53,9 +53,7 @@ unset color_prompt force_color_prompt
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
-#	PS1="┌─[\[\e[31;1m\]\u\[\033[01;36m\]@\[\e[32;1m\]\H\]\n\[\033[1;36m\]└─>[\[\033[0;31m\]\w\[\033[1;36m\]] \[\e[0m\]\n\[\033[1;36m\]└─>>"
 	
-#   PS1="[\w]\n\[\e[34;1m\]\u\[\e[31;1m\]@\[\e[32;1m\]\H >>> "
 	PS1="\[\e[31;1m\]~\[\e[35;1m\]$ "
 	
 ;;
@@ -73,7 +71,7 @@ alias ls='ls --color=auto'
 #alias egrep='egrep --color=auto'
 fi
 # some more ls aliases
-#alias ll='ls -l'
+alias ll='ls -l'
 #alias la='ls -A'
 #alias l='ls -CF'
 alias shutdown='sudo shutdown -h now'
