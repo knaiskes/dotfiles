@@ -8,7 +8,7 @@ if &term =~ "xterm"
 	set t_co=265
 endif
 
-hi Normal cterm=none ctermfg=247 ctermbg=232
+hi Normal cterm=none ctermfg=247 ctermbg=16
 hi LIneNr cterm=none ctermfg=239 ctermbg=232
 hi CursorLineNr cterm=none ctermfg=160 ctermbg=233
 hi Pmenu ctermfg=239 ctermbg=234  cterm=bold
