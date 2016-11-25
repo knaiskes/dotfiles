@@ -1,3 +1,3 @@
 xrdb  ~/.Xdefaults
-#sh /home/kiriakos/.fehbg
+#sh /home/$USER/.fehbg
 exec i3 
