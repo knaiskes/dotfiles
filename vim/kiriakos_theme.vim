@@ -41,9 +41,7 @@ hi Constant cterm=NONE ctermbg=NONE ctermfg=208
 hi Number   cterm=NONE ctermbg=NONE ctermfg=172
 hi Special cterm=NONE ctermbg=NONE ctermfg=64
 
-hi DiffAdd cterm=NONE ctermbg=NONE ctermfg=2
-hi DiffChange cterm=NONE ctermbg=NONE ctermfg=18
-hi DiffDelete cterm=NONE ctermbg=NONE ctermfg=9
-hi DiffText cterm=NONE ctermbg=NONE ctermfg=23
-
-
+hi DiffAdd cterm=NONE ctermbg=40 ctermfg=NONE
+hi DiffChange cterm=NONE ctermbg=28 ctermfg=NONE
+hi DiffDelete cterm=NONE ctermbg=196 ctermfg=NONE
+hi DiffText cterm=NONE ctermbg=231 ctermfg=NONE
