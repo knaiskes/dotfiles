@@ -76,8 +76,8 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 #workspaces variable names
 set $workspace1 "1:main"
-set $workspace2 "2:term"
-set $workspace3 "3:media"
+set $workspace2 "2:dev"
+set $workspace3 "3:music"
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
 bindsym $mod+2 workspace $workspace2
@@ -133,7 +133,7 @@ bindsym Escape mode "default"
 bindsym $mod+r mode "resize"
 # colors
 #class border backgr. text
-client.focused #B20000 #000000 #355088 #840C19 #03396C
+client.focused #315BD7D #0C1111 #006666 #840C19 #03396C
 client.focused_inactive #0000000 #000000 #00CD00
 client.unfocused #333333 #000000 #888888 #292d2e  #222222
 client.urgent #2f343a #900000 #ffffff #900000   #900000
@@ -148,13 +148,13 @@ position bottom
 status_command i3status 
 colors{
 separator #0E8466
-background #000000
+background #0C1111
 statusline #969696
 
-focused_workspace  #4c7899 #222222 #006666
-active_workspace   #333333 #5f676a #ffffff
-inactive_workspace #333333 #222222 #888888
-urgent_workspace   #2f343a #900000 #ffffff
+focused_workspace  #005B96 #222222 #005B96
+active_workspace   #606363 #5f676a #ffffff
+inactive_workspace #606363 #222222 #888888
+urgent_workspace   #606363 #900000 #ffffff
 }
 }
 

@@ -1,6 +1,6 @@
 ! special
-*.foreground: #0E2F44
-*.background: #080909
+*.foreground: #193B50
+*.background: #070707
 *.cursorColor:#5b5b5b
 ! black
 *.color0: #000000
@@ -26,8 +26,8 @@
 *.color10: #2B6755
 ! rlight blue
 *.color11: #00b2b2
-! dark green
-*.color12: #003333
+! light blue
+*.color12: #03396C
 ! light green
 *.color13: #006B35
 ! dark green
