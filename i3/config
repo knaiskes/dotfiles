@@ -133,27 +133,29 @@ bindsym Escape mode "default"
 bindsym $mod+r mode "resize"
 # colors
 #class border backgr. text
-client.focused #315BD7D #0C1111 #006666 #840C19 #03396C
-client.focused_inactive #0000000 #000000 #00CD00
-client.unfocused #333333 #000000 #888888 #292d2e  #222222
-client.urgent #2f343a #900000 #ffffff #900000   #900000
-client.background #000000
+client.focused          #4c7899 #0A0A0A #198C8C #2e9ef4   #285577
+client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
+client.unfocused        #333333 #0A0A0A #888888 #292d2e   #222222
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+
+client.background       #ffffff
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
 font pango:DejaVu Sans Mono 12
 tray_padding 10
-separator_symbol "<>"
+separator_symbol "|"
 position bottom
 status_command i3status 
 colors{
 separator #0E8466
 background #0C1111
-statusline #969696
+statusline #782031
 
-focused_workspace  #005B96 #222222 #005B96
+focused_workspace  #00CC00 #222222 #00CC00
 active_workspace   #606363 #5f676a #ffffff
-inactive_workspace #606363 #222222 #888888
+inactive_workspace #336666 #222222 #336666
 urgent_workspace   #606363 #900000 #ffffff
 }
 }
