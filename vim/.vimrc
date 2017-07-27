@@ -1,15 +1,15 @@
+set t_Co=256
+
 set nocompatible "stop pretending to be vi
 
 colorscheme kiriakos_theme
-if &term =~ "xterm-256color"
-	set t_co=256
-endif
-
 syntax on "enable programming syntax highlighting
 set cul
 
 set hlsearch "search highlighting
 set incsearch "move to search while typing
+
+set ruler
 
 set fillchars+=vert:\|
 
@@ -36,7 +36,3 @@ cnoremap <C-e> <End>
 set hidden  "switch to buffers without saving first
 
 let &titleold=getcwd()
-"set term=xterm-256color
-if &term =~ '256color'
-	set t_ut=
-endif
