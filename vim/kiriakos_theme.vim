@@ -5,7 +5,7 @@ if exists("syntax_on")
 endif
 let g:colors_name= "kiriakos_theme"
 if &term =~ "xterm"
-	set t_co=265
+	set t_Co=265
 endif
 
 hi Normal ctermfg=247 ctermbg=16
@@ -41,7 +41,9 @@ hi Constant cterm=NONE ctermbg=NONE ctermfg=208
 hi Number   cterm=NONE ctermbg=NONE ctermfg=172
 hi Special cterm=NONE ctermbg=NONE ctermfg=64
 
-hi DiffAdd cterm=NONE ctermbg=40 ctermfg=NONE
-hi DiffChange cterm=NONE ctermbg=28 ctermfg=NONE
-hi DiffDelete cterm=NONE ctermbg=196 ctermfg=NONE
+hi DiffAdd cterm=NONE ctermbg=17 ctermfg=NONE
+hi DiffChange cterm=NONE ctermbg=32 ctermfg=NONE
+hi DiffDelete cterm=NONE ctermbg=160 ctermfg=NONE
 hi DiffText cterm=NONE ctermbg=231 ctermfg=NONE
+
+
