@@ -13,6 +13,10 @@ set ruler
 
 set fillchars+=vert:\|
 
+"searching
+set ignorecase
+set smartcase
+
 filetype indent on "load specific indentation of programming languages
 set wildmenu "autocomplete for command menu
 
