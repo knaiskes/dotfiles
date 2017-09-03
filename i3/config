@@ -153,9 +153,9 @@ separator #0E8466
 background #0C1111
 statusline #782031
 
-focused_workspace  #00CC00 #222222 #00CC00
+focused_workspace  #4B86B4 #222222 #4B86B4
 active_workspace   #606363 #5f676a #ffffff
-inactive_workspace #336666 #222222 #336666
+inactive_workspace #2A4D69 #222222 #2A4D69
 urgent_workspace   #606363 #900000 #ffffff
 }
 }
