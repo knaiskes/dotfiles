@@ -133,7 +133,7 @@ bindsym Escape mode "default"
 bindsym $mod+r mode "resize"
 # colors
 #class border backgr. text
-client.focused          #4c7899 #0A0A0A #198C8C #2e9ef4   #285577
+client.focused          #004120 #004120 #000000 #2e9ef4   #285577
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
 client.unfocused        #333333 #0A0A0A #888888 #292d2e   #222222
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
@@ -153,9 +153,9 @@ separator #0E8466
 background #0C1111
 statusline #782031
 
-focused_workspace  #4B86B4 #222222 #4B86B4
+focused_workspace  #004120 #004120 #000000
 active_workspace   #606363 #5f676a #ffffff
-inactive_workspace #2A4D69 #222222 #2A4D69
+inactive_workspace #B20000 #B20000 #000000
 urgent_workspace   #606363 #900000 #ffffff
 }
 }
