@@ -33,6 +33,9 @@ set number "enable numbers to the left
 set relativenumber
 set nowrap
 
+"act like .ino files are cpp files
+autocmd BufNewFile,BufReadPost *.ino set filetype=cpp
+
 "Mappings
 cnoremap <C-a> <Home>
 cnoremap <C-e> <End>
