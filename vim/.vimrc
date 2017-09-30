@@ -33,6 +33,7 @@ set number "enable numbers to the left
 set relativenumber
 set nowrap
 
+
 "Mappings
 cnoremap <C-a> <Home>
 cnoremap <C-e> <End>
