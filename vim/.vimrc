@@ -6,6 +6,10 @@ colorscheme kiriakos_theme
 syntax on "enable programming syntax highlighting
 set cul
 
+set tabstop=4
+
+set showmatch
+
 set hlsearch "search highlighting
 set incsearch "move to search while typing
 
@@ -32,7 +36,6 @@ set colorcolumn=80
 set number "enable numbers to the left 
 set relativenumber
 set nowrap
-
 
 "Mappings
 cnoremap <C-a> <Home>
