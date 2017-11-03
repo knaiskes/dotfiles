@@ -45,3 +45,10 @@ hi DiffAdd cterm=NONE ctermbg=28 ctermfg=NONE
 hi DiffChange cterm=NONE ctermbg=55 ctermfg=NONE
 hi DiffDelete cterm=NONE ctermbg=124 ctermfg=NONE
 hi DiffText cterm=NONE ctermbg=231 ctermfg=NONE
+
+hi User1 cterm=NONE ctermbg=2 ctermfg=29
+hi User2 cterm=NONE ctermbg=234 ctermfg=88
+hi User3 cterm=NONE ctermbg=234 ctermfg=178
+hi User4 cterm=NONE ctermbg=240 ctermfg=232
+hi User5 cterm=None ctermbg=202 ctermfg=232
+
