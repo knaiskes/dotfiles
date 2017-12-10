@@ -54,7 +54,7 @@ unset color_prompt force_color_prompt
 case "$TERM" in
 xterm*|rxvt*)
 	
-	PS1="\[\e[31;1m\]~\[\e[35;1m\]$ "
+	PS1="\[\e[35;1m\]> "
 	
 ;;
 *)
