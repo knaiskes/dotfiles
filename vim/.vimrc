@@ -11,6 +11,8 @@ set incsearch "move to search while typing
 
 set ruler
 
+set list listchars=nbsp:¬,tab:»·,trail:·,extends:>
+
 set fillchars+=vert:\|
 
 "searching
