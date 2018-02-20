@@ -1,36 +1,43 @@
 XTerm*termName: xterm-256color
-!! special
-*.foreground: #8A8271
-*.background: #1C2124
-*.cursorColor:#5b5b5b
-!! black
-*.color0: #000000
-!!blue
-*.color1: #141968
-!!light green
-*.color2: #082820
-!!light blue
-*.color3: #005555
-!!light blue 
-*.color7: #005555
-!! light green
-*.color5: #32401A
-!! dark blue
-*.color6: #214052
-!! brown
-*.color4: #332014
-!! red to black
-*.color8: #331418
-!! dark grey
-*.color9: #2D3434
-!! light green 
-*.color10: #2B6755
-!! rlight blue
-*.color11: #00b2b2
-!! light blue
-*.color12: #03396C
-!! light grey
-*.color13: #979081
-!! dark green
-*.color14: #002d16
+
+! special
+*.foreground:   #ffffff
+*.background:   #000000
+*.cursorColor:  #ffffff
+
+! black
+*.color0:       #303030
+*.color8:       #5f5f5f
+
+! red
+*.color1:       #c03000
+*.color9:       #af1010
+
+! green
+*.color2:       #b1d631
+*.color10:      #a6cd07
+
+! yellow
+*.color3:       #fecf35
+*.color11:      #b5c865
+
+! blue
+*.color4:       #426870
+*.color12:      #4a7781
+
+! magenta
+*.color5:       #6d506d
+*.color13:      #af1010
+
+! cyan
+*.color6:       #4bb5c1
+*.color14:      #4bb5c1
+
+! white
+*.color7:       #e2e2e5
+*.color15:      #e2e2e5
+
+
+
+
 XTerm*faceName: Droid Sans Mono:pixelsize=20

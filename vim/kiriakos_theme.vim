@@ -41,10 +41,10 @@ hi Constant cterm=NONE ctermbg=NONE ctermfg=208
 hi Number   cterm=NONE ctermbg=NONE ctermfg=172
 hi Special cterm=NONE ctermbg=NONE ctermfg=64
 
-hi DiffAdd cterm=NONE ctermbg=28 ctermfg=NONE
-hi DiffChange cterm=NONE ctermbg=55 ctermfg=NONE
-hi DiffDelete cterm=NONE ctermbg=124 ctermfg=NONE
-hi DiffText cterm=NONE ctermbg=231 ctermfg=NONE
+hi DiffAdd cterm=bold ctermbg=255 ctermfg=10
+hi DiffChange cterm=bold ctermbg=22 ctermfg=10
+hi DiffDelete cterm=bold ctermbg=196 ctermfg=10
+hi DiffText cterm=bold ctermbg=88 ctermfg=10
 
 hi User1 cterm=NONE ctermbg=2 ctermfg=29
 hi User2 cterm=NONE ctermbg=234 ctermfg=88
