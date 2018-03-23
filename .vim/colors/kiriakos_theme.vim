@@ -23,7 +23,7 @@ hi User4 cterm=NONE ctermbg=NONE ctermfg=NONE
 hi VertSplit cterm=bold ctermfg=238 ctermbg=253
 
 hi CursorLine cterm=none ctermfg=none ctermbg=235
-hi colorcolumn ctermbg=26
+hi colorcolumn ctermbg=160
 
 hi StatusLine cterm=none ctermfg=40 ctermbg=none
 hi StatusLineNC cterm=none ctermfg=160 ctermbg=17
@@ -46,9 +46,11 @@ hi DiffChange cterm=bold ctermbg=22 ctermfg=10
 hi DiffDelete cterm=bold ctermbg=196 ctermfg=10
 hi DiffText cterm=bold ctermbg=88 ctermfg=10
 
-hi User1 cterm=NONE ctermbg=2 ctermfg=29
-hi User2 cterm=NONE ctermbg=234 ctermfg=88
-hi User3 cterm=NONE ctermbg=234 ctermfg=178
-hi User4 cterm=NONE ctermbg=240 ctermfg=232
-hi User5 cterm=None ctermbg=202 ctermfg=232
+hi User1 cterm=NONE ctermbg=NONE ctermfg=29
+hi User2 cterm=NONE ctermbg=118 ctermfg=0
+hi User3 cterm=NONE ctermbg=232 ctermfg=7
+hi User4 cterm=NONE ctermbg=243 ctermfg=232
+hi User5 cterm=NONE ctermbg=64 ctermfg=232
+hi User6 cterm=NONE ctermbg=NONE ctermfg=73
 
+hi ModeMsg cterm=NONE ctermbg=NONE ctermfg=9
