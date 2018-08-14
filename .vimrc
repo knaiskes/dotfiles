@@ -13,7 +13,7 @@ set ruler
 
 "set list listchars=nbsp:¬,tab:»·,trail:·,extends:>
 
-set fillchars+=vert:\|
+set fillchars+=vert:\ 
 
 "searching
 set ignorecase
@@ -53,6 +53,8 @@ set colorcolumn=80
 set number "enable numbers to the left 
 set relativenumber
 set nowrap
+
+autocmd BufNewFile,BufReadPost *.ino set filetype=cpp
 
 "Mappings
 cnoremap <C-a> <Home>

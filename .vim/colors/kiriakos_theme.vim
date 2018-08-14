@@ -26,7 +26,7 @@ hi CursorLine cterm=none ctermfg=none ctermbg=235
 hi colorcolumn ctermbg=160
 
 hi StatusLine cterm=none ctermfg=40 ctermbg=none
-hi StatusLineNC cterm=none ctermfg=160 ctermbg=17
+hi StatusLineNC cterm=none ctermfg=160 ctermbg=46
 hi Visual ctermfg=15 ctermbg=240 cterm=none
 
 hi Comment cterm=NONE ctermbg=NONE ctermfg=59
