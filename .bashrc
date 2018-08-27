@@ -64,6 +64,7 @@ esac
 if [ -x /usr/bin/dircolors ]; then
 test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
 alias ls='ls --color=auto'
+alias wireless_con='sudo wpa_supplicant -B -i wlp6s0 -c /etc/wpa_supplicant/wpa_supplicant.conf'
 #alias dir='dir --color=auto'
 #alias vdir='vdir --color=auto'
 #alias grep='grep --color=auto'
@@ -92,3 +93,7 @@ elif [ -f /etc/bash_completion ]; then
 . /etc/bash_completion
 fi
 fi
+
+# Golang project  path
+export GOPATH=$HOME/Home-Panel
+export PATH=$PATH:$GOPATH/bin
