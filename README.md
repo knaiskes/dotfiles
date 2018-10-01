@@ -1,3 +1,3 @@
 # dotfiles
 
-My Linux dotfiles
+My Linux dotfiles for my laptop
