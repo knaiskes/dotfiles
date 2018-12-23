@@ -22,8 +22,6 @@ set smartcase
 filetype indent on "load specific indentation of programming languages
 set wildmenu "autocomplete for command menu
 
-
-
 set laststatus=2 
 
 "set statusline=
@@ -63,3 +61,8 @@ cnoremap <C-e> <End>
 set hidden  "switch to buffers without saving first
 
 let &titleold=getcwd()
+
+aug python
+    " ftype/python.vim overwrites this
+    au FileType python setlocal ts=4 sts=4 sw=4 noexpandtab
+aug end
