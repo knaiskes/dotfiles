@@ -11,7 +11,7 @@ set incsearch "move to search while typing
 
 set ruler
 
-"set list listchars=nbsp:¬,tab:»·,trail:·,extends:>
+set list listchars=nbsp:¬,tab:»·,trail:·,extends:>
 
 " indentation
 filetype indent on "load specific indentation of programming languages
