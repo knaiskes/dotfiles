@@ -11,7 +11,7 @@ set incsearch "move to search while typing
 
 set ruler
 
-"set list listchars=nbsp:¬,tab:»·,trail:·,extends:>
+set list listchars=nbsp:¬,tab:»·,trail:·,extends:>
 
 " indentation
 filetype indent on "load specific indentation of programming languages
@@ -60,7 +60,7 @@ set relativenumber
 set nowrap
 
 autocmd BufNewFile,BufReadPost *.ino set filetype=cpp
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+autocmd BufNewFile,BufReadPost *.php set filetype=html
 
 "Mappings
 cnoremap <C-a> <Home>
