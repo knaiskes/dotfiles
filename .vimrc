@@ -61,6 +61,7 @@ set nowrap
 
 autocmd BufNewFile,BufReadPost *.ino set filetype=cpp
 autocmd BufNewFile,BufReadPost *.php set filetype=html
+autocmd BufNewFile,BufReadPost *.ts set filetype=javascript
 
 "Mappings
 cnoremap <C-a> <Home>
