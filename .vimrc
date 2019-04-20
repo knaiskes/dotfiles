@@ -1,72 +1,76 @@
-set t_Co=256
-
-set nocompatible "stop pretending to be vi
-
-colorscheme kiriakos_theme
-syntax on "enable programming syntax highlighting
-set cul
-
-set hlsearch "search highlighting
-set incsearch "move to search while typing
-
-set ruler
-
-set list listchars=nbsp:¬,tab:»·,trail:·,extends:>
-
-" indentation
-filetype indent on "load specific indentation of programming languages
-set autoindent
-set shiftwidth=4 
-set softtabstop=4 
-set expandtab
-set backspace=2
-
-set fillchars+=vert:\ 
-
-"searching
-set ignorecase
-set smartcase
-
-set wildmenu "autocomplete for command menu
-
-set laststatus=2 
-
-"set statusline=
-"set statusline+=%{ChangeStatuslineColor()}
-"set statusline+=%0*\ %{toupper(g:currentmode[mode()])}   " Current mode
-"set statusline +=%5*\ %n\ %* "buffer number
-"set statusline +=%3*%y%*     "file type
-"set statusline+=%3*\ %=      "space
-"set statusline +=%4*\ %<%F%* "path
-"set statusline+=%3*\ %=      "space
-"set statusline +=%6*\ %m\ %* "modified sign
-"set statusline +=%3*%=%5l%*   "current line
-"set statusline +=%3*/%L%*    "total lines
-
-
+set laststatus=2
 set statusline=
-set statusline +=%1*\ %n\ %*            "buffer number
-set statusline +=%2*%{&ff}%*            "file format
-set statusline +=%3*%y%*                "file type
-set statusline +=%4*\ %<%F%*            "full path
-set statusline +=%5*%m%*                "modified flag
-set statusline +=%6*%=%5l%*             "current line
-set statusline +=%6*/%L%*               "total lines
+set statusline+=%2*
+set statusline+=%{StatuslineMode()}
+set statusline+=%1*
+set statusline+=\ 
+set statusline+=<
+set statusline+=<
+set statusline+=\ 
+set statusline+=%f
+set statusline+=\ 
+set statusline+=>
+set statusline+=>
+set statusline+=%=
+set statusline+=%m
+set statusline+=%h
+set statusline+=%r
+set statusline+=\ 
+set statusline+=%3*
+set statusline+=%{b:gitbranch}
+set statusline+=%1*
+set statusline+=\ 
+set statusline+=%4*
+set statusline+=%F
+set statusline+=:
+set statusline+=:
+set statusline+=%5*
+set statusline+=%l
+set statusline+=/
+set statusline+=%L
+set statusline+=%1*
+set statusline+=|
+set statusline+=%y
+hi User2 ctermbg=lightgreen ctermfg=black guibg=lightgreen guifg=black
+hi User1 ctermbg=black ctermfg=white guibg=black guifg=white
+hi User3 ctermbg=black ctermfg=lightblue guibg=black guifg=lightblue
+hi User4 ctermbg=black ctermfg=lightgreen guibg=black guifg=lightgreen
+hi User5 ctermbg=black ctermfg=magenta guibg=black guifg=magenta
 
-set colorcolumn=80
+function! StatuslineMode()
+  let l:mode=mode()
+  if l:mode==#"n"
+    return "NORMAL"
+  elseif l:mode==?"v"
+    return "VISUAL"
+  elseif l:mode==#"i"
+    return "INSERT"
+  elseif l:mode==#"R"
+    return "REPLACE"
+  elseif l:mode==?"s"
+    return "SELECT"
+  elseif l:mode==#"t"
+    return "TERMINAL"
+  elseif l:mode==#"c"
+    return "COMMAND"
+  elseif l:mode==#"!"
+    return "SHELL"
+  endif
+endfunction
 
-set number "enable numbers to the left 
-set relativenumber
-set nowrap
-
-autocmd BufNewFile,BufReadPost *.ino set filetype=cpp
-autocmd BufNewFile,BufReadPost *.php set filetype=html
-autocmd BufNewFile,BufReadPost *.ts set filetype=javascript
-
-"Mappings
-cnoremap <C-a> <Home>
-cnoremap <C-e> <End>
-
-set hidden  "switch to buffers without saving first
-
-let &titleold=getcwd()
+function! StatuslineGitBranch()
+  let b:gitbranch=""
+  if &modifiable
+    lcd %:p:h
+    let l:gitrevparse=system("git rev-parse --abbrev-ref HEAD")
+    lcd -
+    if l:gitrevparse!~"fatal: not a git repository"
+      let b:gitbranch="(".substitute(l:gitrevparse, '\n', '', 'g').") "
+    endif
+  endif
+endfunction
+    
+augroup GetGitBranch
+  autocmd!
+  autocmd VimEnter,WinEnter,BufEnter * call StatuslineGitBranch()
+augroup END
