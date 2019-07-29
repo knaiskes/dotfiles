@@ -26,6 +26,7 @@ bindsym $mod+Return exec xterm -e tmux -2
 bindsym $mod+t exec xterm
 #Programs
 bindsym $mod+b exec firefox
+bindsym $mod+p exec pcmanfm
 #disable titles in windows
 #for_window [class="^.*"] border pixel 1
 # kill focused window
@@ -99,7 +100,7 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 #force programs to open on specific workspaces
 assign [class="Geany"] 2
-assign [class="Firefox"] 1
+assign [class="firefox"] 1
 assign [class="XTerm"] 2
 # reload the configuration file
 bindsym $mod+Shift+c reload
