@@ -99,8 +99,7 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 #force programs to open on specific workspaces
-assign [class="Geany"] 2
-assign [class="firefox"] 1
+assign [class="Firefox"] 1
 assign [class="XTerm"] 2
 # reload the configuration file
 bindsym $mod+Shift+c reload
