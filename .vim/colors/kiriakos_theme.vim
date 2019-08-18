@@ -3,7 +3,7 @@ highlight clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name= "kiriakos_theme"
+let g:colors_name= "../colors/kiriakos_theme"
 if &term =~ "xterm"
 	set t_Co=265
 endif
