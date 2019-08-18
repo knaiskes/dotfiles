@@ -3,7 +3,7 @@ XTerm*termName: xterm-256color
 ! special
 *.foreground:   #ffffff
 *.background:   #000000
-*.cursorColor:  #ffffff
+*.cursorColor:  #009900
 
 ! black
 *.color0:       #303030
@@ -36,8 +36,5 @@ XTerm*termName: xterm-256color
 ! white
 *.color7:       #e2e2e5
 *.color15:      #e2e2e5
-
-
-
 
 XTerm*faceName: Droid Sans Mono:pixelsize=20
