@@ -136,6 +136,7 @@ set number "enable numbers to the left
 set relativenumber
 set nowrap
 
+autocmd Filetype htmldjango setlocal ts=2 sts=2 sw=2 expandtab
 autocmd BufNewFile,BufReadPost *.ino set filetype=cpp
 "autocmd BufNewFile,BufReadPost *.php set filetype=html
 autocmd BufNewFile,BufReadPost *.ts set filetype=javascript
