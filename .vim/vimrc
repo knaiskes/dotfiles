@@ -148,3 +148,5 @@ cnoremap <C-e> <End>
 set hidden  "switch to buffers without saving first
 
 let &titleold=getcwd()
+
+set wildignore=.git,*.o,*.a,*.class,*.jar,*.obj,*.swp,*.jpg,*.png,*.pyc,*.pyo,*.db
