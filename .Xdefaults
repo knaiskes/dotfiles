@@ -38,3 +38,4 @@ XTerm*termName: xterm-256color
 *.color15:      #e2e2e5
 
 XTerm*faceName: Droid Sans Mono:pixelsize=20
+XTerm*metaSendsEscape: true
