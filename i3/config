@@ -22,8 +22,9 @@ font pango:Droid Sans Mono 13
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 # start a terminal
-bindsym $mod+Return exec xterm -e tmux -2
-bindsym $mod+t exec xterm
+# bindsym $mod+Return exec xterm -e tmux -2
+bindsym $mod+Return exec urxvt
+# bindsym $mod+t exec xterm
 #Programs
 bindsym $mod+b exec firefox
 #disable titles in windows
