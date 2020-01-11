@@ -1,12 +1,4 @@
-URxvt.termName: rxvt
-URxvt.depth: 32
-URxvt.transparent: false
-URxvt.font: xft:bitstream vera sans mono:size=14
-URxvt.scrollBar: false
-
-URxvt*depth: 32
-URxvt*foreground: #e4e4ef
-URxvt*background: #181818
+XTerm*termName: xterm-256color
 
 ! special
 *.foreground:   #ffffff
