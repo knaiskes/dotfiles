@@ -23,7 +23,7 @@ font pango:Droid Sans Mono 13
 floating_modifier $mod
 # start a terminal
 # bindsym $mod+Return exec xterm -e tmux -2
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec xterm
 # bindsym $mod+t exec xterm
 #Programs
 bindsym $mod+b exec firefox
