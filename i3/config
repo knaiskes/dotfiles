@@ -147,7 +147,7 @@ font pango:DejaVu Sans Mono 12
 tray_padding 10
 separator_symbol "|"
 position bottom
-status_command i3status 
+status_command i3status
 	colors{
 		separator #0E8466
 		background #0C1111
@@ -163,3 +163,7 @@ status_command i3status
 
 
 bindsym Control+$mod+l exec i3lock -c 000000
+
+# move workspace to left and right monitors
+bindsym $mod+Shift+bracketleft move workspace to output left
+bindsym $mod+Shift+bracketright move workspace to output right
