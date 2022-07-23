@@ -39,3 +39,4 @@ XTerm*termName: xterm-256color
 
 XTerm*faceName: Droid Sans Mono:pixelsize=20
 XTerm*metaSendsEscape: true
+XTerm*selectToClipboard: true
