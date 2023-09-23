@@ -37,6 +37,8 @@ XTerm*termName: xterm-256color
 *.color7:       #e2e2e5
 *.color15:      #e2e2e5
 
-XTerm*faceName: Droid Sans Mono:pixelsize=20
+XTerm*faceName: DejaVu Sans Mono-18
 XTerm*metaSendsEscape: true
 XTerm*selectToClipboard: true
+
+Emacs.font: DejaVu Sans Mono-18
