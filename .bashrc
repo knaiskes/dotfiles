@@ -16,3 +16,4 @@ PS1='\[\e[1;32m\][\u@\h \w]\$\[\e[0;33m\] '
 export PATH=~/.npm-global/bin:$PATH
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+export LANG=en_US.UTF-8
