@@ -5,6 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+HISTSIZE=1000
+HISTFILESIZE=2000
+
 alias ls='ls --color=auto'
 alias ll='ls -l'
 alias shutdown='sudo shutdown -h now'
@@ -17,3 +20,4 @@ export PATH=~/.npm-global/bin:$PATH
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export LANG=en_US.UTF-8
+source ~/aur/nvm/init-nvm.sh
