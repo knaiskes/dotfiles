@@ -83,6 +83,7 @@ output * bg ~/Photos/wallpaper.png fill
     bindsym $mod+d exec $menu
 
     bindsym $mod+Shift+b exec firefox
+    bindsym $mod+Shift+s exec grim -g "$(slurp)" "$HOME/screenshot-$(date +%Y%m%d-%H%M%S).png"
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
